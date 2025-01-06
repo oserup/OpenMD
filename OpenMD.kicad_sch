@@ -3795,7 +3795,7 @@
 		)
 		(uuid 2c089252-4c24-4422-aa45-c59eea598363)
 	)
-	(text "V_{SENSE} = V_{BATT} / 25\n"
+	(text "V_{SENSE} = V_{MOTOR} / 25\n"
 		(exclude_from_sim no)
 		(at 116.078 88.392 0)
 		(effects
@@ -3805,7 +3805,7 @@
 		)
 		(uuid "12a00d1a-12f2-4a4a-abc4-a6f5a8115d7b")
 	)
-	(text "Theoretical System Ratings:\nV_{BATT}: 6-80V\nI_{BATT}: 0-73A RMS\nP_{MAX}: 4 kW"
+	(text "Theoretical System Ratings:\nV_{MOTOR}: 6-80V\nI_{MOTOR}: 0-73A RMS\nP_{MAX}: 4 kW"
 		(exclude_from_sim no)
 		(at 175.768 168.148 0)
 		(effects
@@ -6994,16 +6994,6 @@
 				(justify left top)
 			)
 		)
-		(pin "V_{DRV}" input
-			(at 138.43 111.76 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "87506017-06a9-4736-b341-2eec93ce91d5")
-		)
 		(pin "GND" passive
 			(at 138.43 133.35 180)
 			(effects
@@ -7043,6 +7033,16 @@
 				(justify right)
 			)
 			(uuid "3f1f3019-3425-4123-b779-c347b6626a6a")
+		)
+		(pin "V_{DD}" input
+			(at 138.43 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cd4852dc-52d5-48b1-bcac-204d6f1b7306")
 		)
 		(instances
 			(project "OpenMD"

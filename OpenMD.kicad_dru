@@ -1,0 +1,13 @@
+(version 1)
+(
+	rule "Inner Width"
+	(constraint track_width (min 9mil))
+	(layer inner)
+	(severity error)
+)
+(
+	rule "Inner Spacing"
+	(constraint clearance (min 9mil))
+	(layer inner)
+	(severity error)
+)

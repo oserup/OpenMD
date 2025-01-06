@@ -6655,16 +6655,6 @@
 			)
 			(uuid "395cb5ba-ae80-42f9-af9a-1fd898d28075")
 		)
-		(pin "V_{DRV}" input
-			(at 195.58 115.57 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e87b075d-824f-403d-ac1d-d8e09e80f3ef")
-		)
 		(pin "LOW" input
 			(at 195.58 125.73 180)
 			(effects
@@ -6694,6 +6684,16 @@
 				(justify right)
 			)
 			(uuid "8ff29283-9cc5-4b53-a466-2774fa7baeba")
+		)
+		(pin "V_{MOTOR}" input
+			(at 195.58 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fc590e5c-9c34-46db-91f9-195db97a48b3")
 		)
 		(instances
 			(project "OpenMD"
@@ -6743,16 +6743,6 @@
 			)
 			(uuid "dad09772-9422-44cf-9a7a-0a5f34c8b906")
 		)
-		(pin "V_{DRV}" input
-			(at 195.58 52.07 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "34ec6ab6-150d-4f81-ad13-ae262f9af6ad")
-		)
 		(pin "LOW" input
 			(at 195.58 62.23 180)
 			(effects
@@ -6782,6 +6772,16 @@
 				(justify right)
 			)
 			(uuid "49713071-aafe-4d36-b7cd-a048caad7202")
+		)
+		(pin "V_{MOTOR}" input
+			(at 195.58 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0d35da5a-9399-4258-836f-94b7ee052b8a")
 		)
 		(instances
 			(project "OpenMD"
@@ -6831,16 +6831,6 @@
 			)
 			(uuid "58914434-e8fe-4521-9381-4428e3433aac")
 		)
-		(pin "V_{DRV}" input
-			(at 195.58 83.82 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "4a490791-4557-483b-a3ea-c658a7dd83fe")
-		)
 		(pin "LOW" input
 			(at 195.58 93.98 180)
 			(effects
@@ -6870,6 +6860,16 @@
 				(justify right)
 			)
 			(uuid "d1f5a386-cbf3-40a9-8fe4-6733144f754f")
+		)
+		(pin "V_{MOTOR}" input
+			(at 195.58 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1fcba17c-cc0d-4124-b127-b012aa71dd68")
 		)
 		(instances
 			(project "OpenMD"

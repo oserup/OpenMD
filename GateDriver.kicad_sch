@@ -149,151 +149,6 @@
 				)
 			)
 		)
-		(symbol "OpenMD:D_TVS_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_TVS_Small"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS thyrector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_TVS_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.016) (xy 0 1.016) (xy 0 -1.016) (xy -0.508 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.016) (xy -1.27 -1.016) (xy 1.27 1.016) (xy 1.27 -1.016) (xy -1.27 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_TVS_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "OpenMD:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -829,12 +684,6 @@
 		(uuid "2afbbfc8-6bd5-4afc-ad87-56419b5bc79f")
 	)
 	(junction
-		(at 43.18 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30e64db8-968a-43f5-ac00-652a5ddc3b3d")
-	)
-	(junction
 		(at 153.67 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -847,10 +696,10 @@
 		(uuid "6fb4569a-b291-4418-984b-e11f96b5415b")
 	)
 	(junction
-		(at 76.2 63.5)
+		(at 72.39 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c02b07c7-29cd-49a2-8e83-8adda109a276")
+		(uuid "b9648fb3-be9d-4030-9f4b-49d4d532b98e")
 	)
 	(junction
 		(at 137.16 60.96)
@@ -870,33 +719,13 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 45.72) (xy 43.18 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09ab2c74-0a50-4856-8836-e1829e65fef7")
-	)
-	(wire
-		(pts
-			(xy 76.2 72.39) (xy 77.47 73.66)
+			(xy 72.39 72.39) (xy 73.66 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "113c2785-90e1-4304-9b88-5c3559d28a3c")
-	)
-	(wire
-		(pts
-			(xy 85.09 63.5) (xy 92.71 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "190ea60e-ce9d-4939-a12a-e4f519c06db7")
 	)
 	(wire
 		(pts
@@ -930,26 +759,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 46.99) (xy 43.18 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bf9dc28-e083-4b18-84b8-f3d6b858cc46")
-	)
-	(wire
-		(pts
-			(xy 40.64 45.72) (xy 41.91 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dface17-d964-4b02-b2ca-96ec2a1f89b3")
-	)
-	(wire
-		(pts
 			(xy 41.91 76.2) (xy 44.45 76.2)
 		)
 		(stroke
@@ -970,7 +779,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 73.66) (xy 78.74 73.66)
+			(xy 73.66 73.66) (xy 92.71 73.66)
 		)
 		(stroke
 			(width 0)
@@ -990,23 +799,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 73.66) (xy 92.71 73.66)
+			(xy 69.85 76.2) (xy 74.93 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67944bf9-bf88-41cf-b87a-6d5914041592")
-	)
-	(wire
-		(pts
-			(xy 57.15 54.61) (xy 57.15 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6973de07-3fff-4553-92f4-fd5e62e25360")
+		(uuid "592559f1-e4c5-45ac-99c0-e9710a45b539")
 	)
 	(wire
 		(pts
@@ -1020,63 +819,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 58.42) (xy 43.18 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d980ed4-ded4-422c-b620-658ee60755c4")
-	)
-	(wire
-		(pts
-			(xy 57.15 46.99) (xy 57.15 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "746c6252-0a60-4145-aec2-2bef400c37b1")
-	)
-	(wire
-		(pts
-			(xy 139.7 66.04) (xy 133.35 66.04)
+			(xy 133.35 66.04) (xy 153.67 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "77e434b0-aeb5-41f0-910f-18b4832b5028")
-	)
-	(wire
-		(pts
-			(xy 55.88 58.42) (xy 57.15 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "796c97ac-f004-4188-a523-823001f63c9f")
-	)
-	(wire
-		(pts
-			(xy 76.2 63.5) (xy 77.47 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85758ac0-fb1d-43b1-8aee-d27a8abc393c")
-	)
-	(wire
-		(pts
-			(xy 147.32 66.04) (xy 153.67 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "922559b8-c8c1-45dd-af27-ad28949e6e5f")
 	)
 	(wire
 		(pts
@@ -1100,16 +849,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 54.61) (xy 43.18 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af06524e-ab43-402e-953f-5982eb912a1c")
-	)
-	(wire
-		(pts
 			(xy 153.67 67.31) (xy 153.67 68.58)
 		)
 		(stroke
@@ -1130,26 +869,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 45.72) (xy 57.15 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdbb60e3-1878-4a4f-b5ef-ec2063c58c44")
-	)
-	(wire
-		(pts
-			(xy 54.61 45.72) (xy 55.88 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0ebdb35-5043-4e75-a2f3-81069511a228")
-	)
-	(wire
-		(pts
 			(xy 44.45 68.58) (xy 58.42 68.58)
 		)
 		(stroke
@@ -1157,16 +876,6 @@
 			(type default)
 		)
 		(uuid "c540bd16-94fa-48cc-857b-e6e4889d2974")
-	)
-	(wire
-		(pts
-			(xy 69.85 76.2) (xy 74.93 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c58cd4dc-c333-42a9-b3bf-6d8c28bf0f5e")
 	)
 	(wire
 		(pts
@@ -1180,7 +889,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 63.5) (xy 76.2 72.39)
+			(xy 72.39 63.5) (xy 72.39 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1207,16 +916,6 @@
 			(type default)
 		)
 		(uuid "d95fbb66-bf29-4a47-b9b3-6cc43b042d11")
-	)
-	(wire
-		(pts
-			(xy 74.93 63.5) (xy 76.2 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dac4369b-5bb9-4c49-b749-767e178085e3")
 	)
 	(wire
 		(pts
@@ -1250,34 +949,33 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 58.42) (xy 55.88 58.42)
+			(xy 67.31 63.5) (xy 72.39 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa2bb72f-aedc-40b1-bd36-8dbd89eaa870")
+		(uuid "ee27ccf6-1758-476d-820a-9a356cd03e01")
 	)
-	(text "Substitute withh UP1966 or LT8418, same Footprint\n"
+	(wire
+		(pts
+			(xy 80.01 63.5) (xy 92.71 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efbf47c3-e100-486f-b6ba-95460c8a1a8c")
+	)
+	(text "Substitute with LT8418, same Footprint\n"
 		(exclude_from_sim no)
-		(at 109.982 44.958 0)
+		(at 114.554 88.646 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "7fc8ce6f-aa8b-4847-b494-c2a9a540a458")
-	)
-	(label "LGL"
-		(at 88.9 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0bdb4149-7854-4aeb-9c72-e62948395831")
 	)
 	(label "BOOT"
 		(at 167.64 71.12 0)
@@ -1290,17 +988,6 @@
 		)
 		(uuid "49dcec56-dfdd-4062-b108-8993bf0ca0d0")
 	)
-	(label "UGL"
-		(at 135.89 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a212d782-4f08-4f3a-aefd-e878171e223e")
-	)
 	(label "UGH"
 		(at 135.89 68.58 0)
 		(fields_autoplaced yes)
@@ -1311,17 +998,6 @@
 			(justify left bottom)
 		)
 		(uuid "b159222b-e10a-45c1-a161-8eebc610981b")
-	)
-	(label "LGH"
-		(at 86.36 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ce47ba40-86e7-4196-a129-0b95931234ec")
 	)
 	(hierarchical_label "V_{DD}"
 		(shape input)
@@ -1334,18 +1010,6 @@
 			(justify right)
 		)
 		(uuid "0c0e2f67-98a0-440e-adca-8b7423d7679e")
-	)
-	(hierarchical_label "LOW_IN"
-		(shape input)
-		(at 54.61 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "26d9f53d-fef3-46c6-900d-fb0e07784595")
 	)
 	(hierarchical_label "HIGH_GATE"
 		(shape bidirectional)
@@ -1361,7 +1025,7 @@
 	)
 	(hierarchical_label "LOW_GATE"
 		(shape bidirectional)
-		(at 74.93 63.5 180)
+		(at 67.31 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1419,30 +1083,6 @@
 		)
 		(uuid "92fc510c-114b-4ed7-aefb-9c3fe67ad473")
 	)
-	(hierarchical_label "GND"
-		(shape passive)
-		(at 39.37 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bc71eaff-ac96-42cc-b9cb-8f9967ed3617")
-	)
-	(hierarchical_label "HIGH_IN"
-		(shape input)
-		(at 40.64 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e997d312-2a0e-4d57-aab5-e077a60be65f")
-	)
 	(hierarchical_label "PHASE"
 		(shape bidirectional)
 		(at 133.35 73.66 0)
@@ -1454,111 +1094,6 @@
 			(justify left)
 		)
 		(uuid "ee800c4d-1830-43a8-936f-d438316c2f75")
-	)
-	(symbol
-		(lib_id "OpenMD:D_TVS_Small")
-		(at 57.15 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d2be001-8ec3-4ef4-a126-992b5b7fe54a")
-		(property "Reference" "D16"
-			(at 59.69 50.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 59.69 53.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "OpenMD:D_0402_1005Metric"
-			(at 57.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
-			(at 57.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0603ESDA-05N"
-			(at 57.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "LCSC"
-			(at 57.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "1A"
-			(at 57.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cc729241-da36-4e01-8859-d8c6d035eb2d")
-		)
-		(pin "1"
-			(uuid "33984872-0f7c-4646-bac9-1bf281475710")
-		)
-		(instances
-			(project "OpenMD"
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/088add4a-41d7-49b4-99cc-9239cd70693b/c2de4369-e1cf-48b7-9260-54fc6f5ddd69"
-					(reference "D16")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/088add4a-41d7-49b4-99cc-9239cd70693b/cbf4e12a-3fd7-44b5-8509-c83b124ff905"
-					(reference "D15")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/088add4a-41d7-49b4-99cc-9239cd70693b/e841f064-3f02-4c16-b30e-9ec0b7ba7273"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "OpenMD:C")
@@ -1640,10 +1175,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6c264988-5c23-40c5-ad98-0df13e0319d7")
+			(uuid "68e85ca3-d320-4e6f-999b-94af563081a1")
 		)
 		(pin "1"
-			(uuid "e7b02631-f47b-4642-8df4-101f1685e29c")
+			(uuid "42e0c08d-9b84-4896-856c-83076e53fabb")
 		)
 		(instances
 			(project "OpenMD"
@@ -1663,113 +1198,8 @@
 		)
 	)
 	(symbol
-		(lib_id "OpenMD:D_TVS_Small")
-		(at 43.18 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4cefa4d9-ae24-4ec1-8e8f-6a0d7ff6d542")
-		(property "Reference" "D13"
-			(at 45.72 50.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V"
-			(at 45.72 53.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "OpenMD:D_0402_1005Metric"
-			(at 43.18 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
-			(at 43.18 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0603ESDA-05N"
-			(at 43.18 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "LCSC"
-			(at 43.18 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "1A"
-			(at 43.18 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "327d4202-e4bd-4c81-8056-160f705ffaba")
-		)
-		(pin "1"
-			(uuid "78341fba-c9b8-49cf-96c0-98bc69c75e89")
-		)
-		(instances
-			(project "OpenMD"
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/088add4a-41d7-49b4-99cc-9239cd70693b/c2de4369-e1cf-48b7-9260-54fc6f5ddd69"
-					(reference "D13")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/088add4a-41d7-49b4-99cc-9239cd70693b/cbf4e12a-3fd7-44b5-8509-c83b124ff905"
-					(reference "D12")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/088add4a-41d7-49b4-99cc-9239cd70693b/e841f064-3f02-4c16-b30e-9ec0b7ba7273"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "OpenMD:R_US")
-		(at 81.28 63.5 270)
+		(at 76.2 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1777,7 +1207,7 @@
 		(dnp no)
 		(uuid "8a1a6749-cca6-46b2-96db-6c5fae2ec29f")
 		(property "Reference" "R6"
-			(at 81.026 60.96 90)
+			(at 75.946 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1785,7 +1215,7 @@
 			)
 		)
 		(property "Value" "1"
-			(at 84.582 61.976 90)
+			(at 79.502 61.976 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1793,7 +1223,7 @@
 			)
 		)
 		(property "Footprint" "OpenMD:R_0402_1005Metric"
-			(at 81.026 64.516 90)
+			(at 75.946 64.516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,7 +1232,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 63.5 0)
+			(at 76.2 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +1241,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 81.28 63.5 0)
+			(at 76.2 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1820,7 +1250,7 @@
 			)
 		)
 		(property "Rating" "100mW"
-			(at 81.28 63.5 0)
+			(at 76.2 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1829,7 +1259,7 @@
 			)
 		)
 		(property "Source" "LCSC"
-			(at 81.28 63.5 0)
+			(at 76.2 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1838,7 +1268,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "FRC0603J1R0 TS"
-			(at 81.28 63.5 0)
+			(at 76.2 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1847,10 +1277,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "edab2884-c7fb-44f1-87aa-c88b9fcf4eb3")
+			(uuid "d0a5756e-329d-4f05-bc6e-42eb79f65b75")
 		)
 		(pin "1"
-			(uuid "eadcc59c-921e-4d76-9535-859ed27270f2")
+			(uuid "c597383f-9983-43e6-b221-fb8b7f7cd5bd")
 		)
 		(instances
 			(project "OpenMD"
@@ -1887,7 +1317,7 @@
 				)
 			)
 		)
-		(property "Value" "LM1205"
+		(property "Value" "UP1966E"
 			(at 113.03 81.28 0)
 			(effects
 				(font
@@ -1905,7 +1335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "UP1966E"
+		(property "Datasheet" "${KIPRJMOD}/docs/datasheets/uP1966E_datasheet.pdf"
 			(at 92.71 73.66 0)
 			(effects
 				(font
@@ -1915,7 +1345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GaN Gate Driver"
 			(at 92.71 73.66 0)
 			(effects
 				(font
@@ -1952,40 +1382,40 @@
 			)
 		)
 		(pin "A3"
-			(uuid "54b065d8-beb6-4026-9b7c-b17d3af5312e")
+			(uuid "c1516b6b-b529-4572-aefe-20f3616b5613")
 		)
 		(pin "D4"
-			(uuid "f71b66da-9d1f-41ec-92d0-95f8b4c83e3f")
+			(uuid "520c61ff-aba4-4e93-8816-9960c7a47743")
 		)
 		(pin "A4"
-			(uuid "214e744c-3574-4fce-a066-77aed60aec7f")
+			(uuid "0c1e4df6-0503-4489-99b5-aa338192396c")
 		)
 		(pin "B1"
-			(uuid "f5a6e903-6102-4513-9797-e3cf52dd84df")
+			(uuid "09c6d68f-e23e-422f-9d85-3bc1a35ca6a0")
 		)
 		(pin "B4"
-			(uuid "e3f555b2-5782-48f0-870a-e76536a8527f")
+			(uuid "6ee597fe-61c0-42fe-b789-7d226c19b6ad")
 		)
 		(pin "C1"
-			(uuid "e183ca81-16bc-42bc-94a3-01361c9da697")
+			(uuid "67e1b738-4895-4dff-b9d0-7c292ce0774c")
 		)
 		(pin "D1"
-			(uuid "7aadb007-1fdc-48f2-96f0-342f2253999e")
+			(uuid "410b4a37-9a1e-405a-a11f-b625727eb539")
 		)
 		(pin "D2"
-			(uuid "5653ba0a-5880-4b56-87e2-c92a0e26c05d")
+			(uuid "52b34462-38d2-4153-8a6b-baa23237a601")
 		)
 		(pin "D3"
-			(uuid "4cba3923-2b86-4d61-9cce-00183d8494b1")
+			(uuid "bcf25829-a83a-4096-aca5-df1c66fb0ff0")
 		)
 		(pin "A2"
-			(uuid "9b387a81-a879-4e61-8e6e-510cf44fce9d")
+			(uuid "2104b163-5596-4167-aef3-9fa198f72758")
 		)
 		(pin "C4"
-			(uuid "de322972-3af2-4730-add9-0ef795a056d9")
+			(uuid "b4b3b990-c879-4614-a179-c767e163fbcc")
 		)
 		(pin "A1"
-			(uuid "19690bdc-d01a-4a18-9e96-d44356b625e9")
+			(uuid "fd243b17-7b3f-443b-b6a6-7b1226b6547f")
 		)
 		(instances
 			(project "OpenMD"
@@ -2087,10 +1517,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a40ce4dc-ec52-4c10-a896-97cf702863f4")
+			(uuid "a8c630cd-a6f2-4597-a7cf-2c6910e26d27")
 		)
 		(pin "1"
-			(uuid "7985b133-0004-41cd-833f-db24378ef949")
+			(uuid "5c8f2ed9-035a-4d07-8e83-aee8b50da47b")
 		)
 		(instances
 			(project "OpenMD"
@@ -2104,210 +1534,6 @@
 				)
 				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/088add4a-41d7-49b4-99cc-9239cd70693b/e841f064-3f02-4c16-b30e-9ec0b7ba7273"
 					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OpenMD:R_US")
-		(at 82.55 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "96298056-798b-4067-8821-5239ef372b46")
-		(property "Reference" "R7"
-			(at 78.486 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 86.614 72.136 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "OpenMD:R_0402_1005Metric"
-			(at 82.804 72.644 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 82.55 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "100mW"
-			(at 82.55 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "LCSC"
-			(at 82.55 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SCR0603J0R"
-			(at 82.55 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7d4957d0-b2c9-4ebe-ab72-7c09a0304023")
-		)
-		(pin "1"
-			(uuid "f654503e-f307-4c47-b33a-bbf2e4be902d")
-		)
-		(instances
-			(project "OpenMD"
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/088add4a-41d7-49b4-99cc-9239cd70693b/c2de4369-e1cf-48b7-9260-54fc6f5ddd69"
-					(reference "R7")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/088add4a-41d7-49b4-99cc-9239cd70693b/cbf4e12a-3fd7-44b5-8509-c83b124ff905"
-					(reference "R2")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/088add4a-41d7-49b4-99cc-9239cd70693b/e841f064-3f02-4c16-b30e-9ec0b7ba7273"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OpenMD:R_US")
-		(at 143.51 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a009fbdd-6c78-4e39-80c6-ddd95d25e116")
-		(property "Reference" "R8"
-			(at 143.764 64.008 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 147.574 64.516 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "OpenMD:R_0402_1005Metric"
-			(at 143.764 65.024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 143.51 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "100mW"
-			(at 143.51 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Source" "LCSC"
-			(at 143.51 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SCR0603J0R"
-			(at 143.51 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "875abe73-f597-4572-90b6-557e579824eb")
-		)
-		(pin "1"
-			(uuid "daa32680-9bdb-479c-aba5-0978087b622f")
-		)
-		(instances
-			(project "OpenMD"
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/088add4a-41d7-49b4-99cc-9239cd70693b/c2de4369-e1cf-48b7-9260-54fc6f5ddd69"
-					(reference "R8")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/088add4a-41d7-49b4-99cc-9239cd70693b/cbf4e12a-3fd7-44b5-8509-c83b124ff905"
-					(reference "R3")
-					(unit 1)
-				)
-				(path "/28611c8e-7644-4a1a-8c07-dc86cafc8f6c/088add4a-41d7-49b4-99cc-9239cd70693b/e841f064-3f02-4c16-b30e-9ec0b7ba7273"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2396,10 +1622,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "07ac0cda-bd38-4e25-91d7-c763c13662fb")
+			(uuid "06d4ba62-6a5a-4c1d-96a0-31e6835bbc94")
 		)
 		(pin "1"
-			(uuid "92985c77-db53-476e-93fc-37e971a515b2")
+			(uuid "ca514f59-72ae-4a75-b012-29e54a93c9be")
 		)
 		(instances
 			(project "OpenMD"
@@ -2498,10 +1724,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b85e6f26-a012-4577-83bb-fe27a54d252d")
+			(uuid "2d8d7764-c956-4907-9d39-7a1942325924")
 		)
 		(pin "1"
-			(uuid "14812ee9-3ede-4625-b200-ca2339ff05b4")
+			(uuid "9f484768-b01d-4125-8ffd-f4a70c517493")
 		)
 		(instances
 			(project "OpenMD"

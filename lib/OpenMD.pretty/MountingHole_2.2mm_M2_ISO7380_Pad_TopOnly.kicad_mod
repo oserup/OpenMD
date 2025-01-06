@@ -9,7 +9,8 @@
 		(at 0 -2.75 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "6433dbfd-a194-4c79-9a48-24a93659772c")
+		(hide yes)
+		(uuid "f1572040-c34b-48f1-a976-7f68ea1219b3")
 		(effects
 			(font
 				(size 0.6096 0.6096)
@@ -22,7 +23,8 @@
 		(at 0 2.75 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "e313fc80-ddd3-4937-90f2-f241a1088874")
+		(hide yes)
+		(uuid "14dd3307-7004-449b-9563-61ca71efaa25")
 		(effects
 			(font
 				(size 0.508 0.508)
@@ -35,7 +37,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "57876560-ca3e-44d2-b706-cda4eaa9beb3")
+		(uuid "5013876f-4a88-4abd-af55-bb75cadc5d89")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48,7 +50,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "20ebac30-4fcd-465c-a427-3f65b075e708")
+		(uuid "20f2f7ff-cc34-4a91-b7c3-fbdcde55e586")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -61,7 +63,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "14daae83-31a3-4e61-8894-03a8c4159d18")
+		(uuid "801e993a-501f-4aff-9af1-73ce4bfaa671")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -74,7 +76,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a2ec9ff5-6a7a-47b2-89e6-20467aa1246e")
+		(uuid "54bcc4bf-0ea4-4240-963d-1a8edb4aba29")
 		(effects
 			(font
 				(size 0.508 0.508)
@@ -87,7 +89,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "316f9bbf-0f97-42e3-85c9-85406f714392")
+		(uuid "3c6cc376-7f82-46b2-b822-99bba58bae41")
 		(effects
 			(font
 				(size 0.508 0.508)
@@ -105,7 +107,7 @@
 		)
 		(fill none)
 		(layer "Cmts.User")
-		(uuid "2b14085d-3458-41aa-824b-4c827ef81917")
+		(uuid "1a028e11-5f8e-4da4-8957-a9f67e03f38c")
 	)
 	(fp_circle
 		(center 0 0)
@@ -116,12 +118,12 @@
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "f91e95e9-618a-436c-98bb-705c00bb8bcf")
+		(uuid "5abb9b37-5ed2-4cbc-ae5c-5658f04abe1a")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "7e947bf0-6de2-4426-85e6-9daabdb5fb7b")
+		(uuid "be1f8b56-c220-4497-b076-9b29b9dd4e67")
 		(effects
 			(font
 				(size 1 1)
@@ -135,12 +137,34 @@
 		(drill 2.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "10515bfc-5280-4027-9244-57a844d23665")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "a8745168-93eb-4e1a-92b3-ae389a391613")
 	)
 	(pad "1" connect circle
 		(at 0 0)
 		(size 3.5 3.5)
 		(layers "F.Cu" "F.Mask")
-		(uuid "d34f32af-b1b4-45ef-b8a0-077219556321")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "711ea259-b47a-493b-a9a2-25f0576275ab")
 	)
 )

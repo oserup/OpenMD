@@ -1234,7 +1234,7 @@
 		)
 		(uuid "02c1b213-6dc6-40e4-b185-d78986d49dbb")
 	)
-	(text "Differential Low Pass at 800 kHz"
+	(text "Differential Low Pass at 80 kHz"
 		(exclude_from_sim no)
 		(at 94.234 50.038 0)
 		(effects
@@ -1409,7 +1409,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100nF"
 			(at 106.6863 58.42 90)
 			(effects
 				(font

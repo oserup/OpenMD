@@ -7,7 +7,8 @@
 		(at -6.35 0 180)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "bb106839-b1f1-4210-82e5-f5940d6553e9")
+		(hide yes)
+		(uuid "3193c33f-ce11-47c4-bdb0-55dcc5eba753")
 		(effects
 			(font
 				(size 0.6096 0.6096)
@@ -20,7 +21,8 @@
 		(at -0.25 0.75 90)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "ef11e1d7-967b-4a3f-96ed-104bd91a10e3")
+		(hide yes)
+		(uuid "43b7743a-54b3-48bd-a535-dc96fdca5955")
 		(effects
 			(font
 				(size 0.508 0.508)
@@ -33,7 +35,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "04507bdb-3b53-4834-8a94-f246b42c92a4")
+		(uuid "b16dbf4c-87ae-4388-b2cd-9491db3b15fe")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +48,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0a4f290b-abf9-473e-8dae-889c35bb510f")
+		(uuid "52bcf49c-762b-481e-a219-9128ba8c6936")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +61,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d54f656b-512f-4898-a58a-40aaf7117df6")
+		(uuid "9cac08e5-5ccf-42fb-83d8-5d23283077db")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -72,7 +74,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "570cff93-678b-4c68-92ca-8010c7e7e029")
+		(uuid "a66147a8-7547-43f4-afee-4c110c12bafa")
 		(effects
 			(font
 				(size 0.6096 0.6096)
@@ -85,7 +87,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4e4a077f-d989-4ee0-8039-48812c630d9c")
+		(uuid "f5513581-ecbe-4fd6-8af9-29c8ea9568c6")
 		(effects
 			(font
 				(size 0.508 0.508)
@@ -98,7 +100,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a0fe76bd-e482-4f1d-bd5a-d4bb6399eadd")
+		(uuid "9a456196-26b9-4377-921d-dfafc81f0580")
 		(effects
 			(font
 				(size 0.508 0.508)
@@ -115,7 +117,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "9b658f5f-b3a2-4948-9f0d-04e3b1a16c89")
+		(uuid "ff48ee66-216d-4970-82b6-e28ab40d13c3")
 	)
 	(fp_line
 		(start 3 -1)
@@ -125,7 +127,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "bc5ff3ed-efd2-4455-81d5-b81c68a5c838")
+		(uuid "c963fe63-7e37-4d63-ac9a-276c680da778")
 	)
 	(fp_line
 		(start -3 -1)
@@ -135,7 +137,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "78d67f09-b847-4c6a-bd85-6b24c2e58306")
+		(uuid "939dee27-ff44-4f64-8221-aaba75c91d5b")
 	)
 	(fp_line
 		(start -7 -1)
@@ -145,7 +147,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "76c00357-b962-4f08-839d-0ab412bc4a8b")
+		(uuid "2c25a0a2-c3dc-40a1-9504-15533377e407")
 	)
 	(fp_rect
 		(start 7.25 6.5)
@@ -156,7 +158,7 @@
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "d79b432f-3ee0-4c80-a2ab-090dbf24d6eb")
+		(uuid "a9992614-d7b0-4c67-8da7-2c8ad678f559")
 	)
 	(fp_rect
 		(start 6 6.5)
@@ -167,7 +169,7 @@
 		)
 		(fill none)
 		(layer "F.Fab")
-		(uuid "4ce3a335-b490-4289-9318-aaa1236f1942")
+		(uuid "7b5c9cd4-83fc-4675-be3e-6589dea5bea9")
 	)
 	(pad "1" thru_hole oval
 		(at -4.9 -3.2 270)
@@ -175,7 +177,18 @@
 		(drill oval 3.7 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "f51e1190-589d-4d57-aedc-e044ac526ceb")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "6dca4ce0-4830-4332-9015-57bf17377619")
 	)
 	(pad "1" thru_hole oval
 		(at -4.9 3.2 270)
@@ -183,7 +196,18 @@
 		(drill oval 3.7 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "bd34c23c-abd5-48d9-92ab-5bb29cae6432")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "478d8308-e2ca-4478-8f3f-178efe0dd8c4")
 	)
 	(pad "1" thru_hole oval
 		(at 4.8 -3.2 270)
@@ -191,7 +215,18 @@
 		(drill oval 3.7 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "51184e49-6dc4-4374-92fc-8b6ee077fc7e")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "9a6a47f7-2d23-45fc-8907-eb3ae8e30661")
 	)
 	(pad "1" thru_hole oval
 		(at 4.8 3.2 270)
@@ -199,7 +234,18 @@
 		(drill oval 3.7 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "afc7decb-5c51-4929-b78d-4210a445af00")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "b7dc0cf0-ec71-4574-b38a-2e3ca675a45d")
 	)
 	(model "${KIPRJMOD}/lib/models/ScrewMount-Body.step"
 		(offset

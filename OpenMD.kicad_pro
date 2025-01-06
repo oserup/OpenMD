@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1016,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1524
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -67,7 +67,7 @@
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
-        "copper_sliver": "warning",
+        "copper_sliver": "ignore",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -85,16 +85,16 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
+        "lib_footprint_issues": "ignore",
         "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "warning",
         "padstack": "ignore",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
@@ -655,7 +655,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
